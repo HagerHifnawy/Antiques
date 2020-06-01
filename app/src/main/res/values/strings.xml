@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">AntiQQues</string>
+    <string name="app_name">Antigues</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="get_your_gift_easier">Get Your gift easier</string>
+    <string name="introtext1">just select your gift and buy with one click ;)</string>
+    <string name="introtext2">It is not an ordinary shopping , but it is
+ handmade of all kinds. (crochet, drawing,
+craving, embroidery and lap,,etc……) </string>
+    <string name="introtext3">Anyone can share what he did with his hands in the app and sell it in an easy way while ensuring safety</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="online_shopping">Online Shopping</string>
+    <string name="trade_online">Trade online</string>
+    <string name="finsh">Finsh</string>
 </resources>
