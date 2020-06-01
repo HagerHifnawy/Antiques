@@ -12,7 +12,7 @@
         android:layout_width="275dp"
         android:layout_height="420dp"
         android:background="@drawable/rounded_shape_intro"
-        app:layout_constraintBottom_toTopOf="@+id/nextintro1_btn"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,10 +22,10 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="172dp"
-            android:layout_height="172dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:layout_marginTop="35dp"
-            android:src="@drawable/firstintro"
+            android:src="@drawable/thirdintro"
             app:layout_constraintEnd_toStartOf="@+id/rounded_shpae"
             app:layout_constraintStart_toEndOf="@+id/rounded_shpae"
             app:layout_constraintTop_toTopOf="@+id/rounded_shpae" />
@@ -34,9 +34,9 @@
             android:id="@+id/intro1_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="5dp"
             android:padding="5dp"
-            android:text="@string/get_your_gift_easier"
+            android:text="@string/trade_online"
             android:textColor="@color/colorPrimary"
             android:textSize="25sp"
             android:textStyle="bold"
@@ -50,7 +50,7 @@
             android:layout_marginTop="20dp"
             android:gravity="center"
             android:padding="5dp"
-            android:text="@string/introtext1"
+            android:text="@string/introtext3"
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -59,18 +59,18 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
-        android:id="@+id/nextintro1_btn"
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="15dp"
         android:background="@color/Backgroundcolor"
-        android:text="@string/next"
+        android:text="@string/finsh"
         android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
     <Button
-        android:id="@+id/skipintro1_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"

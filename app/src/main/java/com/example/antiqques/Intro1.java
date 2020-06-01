@@ -5,11 +5,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Intro1 extends AppCompatActivity {
     Button NextIntro1;
     Button SkipIntro1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,5 +32,7 @@ public class Intro1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     }
 }

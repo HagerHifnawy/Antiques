@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Antigues</string>
+    <string name="app_name">Antiques</string>
     <string name="title_activity_login">Sign in</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -20,4 +20,6 @@ craving, embroidery and lap,,etc……) </string>
     <string name="online_shopping">Online Shopping</string>
     <string name="trade_online">Trade online</string>
     <string name="finsh">Finsh</string>
+    <string name="email">Email</string>
+    <string name="welcome_back">Welcome Back !</string>
 </resources>
