@@ -70,9 +70,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
 
-
-
-
     <Button
         android:id="@+id/button"
         android:layout_width="192dp"
