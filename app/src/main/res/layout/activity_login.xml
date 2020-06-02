@@ -11,7 +11,6 @@
         android:id="@+id/imageView2"
         android:layout_width="207dp"
         android:layout_height="110dp"
-
         android:layout_marginTop="60dp"
         android:src="@drawable/firstintro"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,6 +25,7 @@
         android:text="@string/welcome_back"
         android:textSize="30sp"
         android:layout_margin="30dp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,10 +33,11 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="212dp"
+        android:layout_width="210dp"
         android:layout_height="24dp"
-        android:text="Please,login to your account."
+        android:text="Please,login to your account"
         android:textSize="16sp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.441"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +50,6 @@
         android:layout_margin="50dp"
         android:ems="10"
         android:hint="@string/email"
-        
         android:inputType="textEmailAddress"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
