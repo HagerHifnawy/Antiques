@@ -51,10 +51,10 @@ public class Login extends AppCompatActivity {
         RegisteraccountBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openDialog();
-            }
+                Intent intent = new Intent(Login.this, SignUp.class);
+                startActivity(intent);            }
         });
-        
+
     }
     public void openDialog() {
         Dialog dialog = new Dialog();
