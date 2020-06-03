@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 public class Intro2 extends AppCompatActivity {
-Button NextIntro2;
-Button SkipIntro2;
+    Button NextIntro2;
+    Button SkipIntro2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

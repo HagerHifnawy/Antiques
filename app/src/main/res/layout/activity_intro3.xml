@@ -25,6 +25,7 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_marginTop="35dp"
+            android:src="@drawable/thirdintro"
             app:layout_constraintEnd_toStartOf="@+id/rounded_shpae"
             app:layout_constraintStart_toEndOf="@+id/rounded_shpae"
             app:layout_constraintTop_toTopOf="@+id/rounded_shpae" />
