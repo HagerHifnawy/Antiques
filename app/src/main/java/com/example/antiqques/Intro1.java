@@ -28,7 +28,7 @@ public class Intro1 extends AppCompatActivity {
         SkipIntro1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Intro1.this, MainActivity.class);
+                Intent intent=new Intent(Intro1.this, Login.class);
                 startActivity(intent);
             }
         });

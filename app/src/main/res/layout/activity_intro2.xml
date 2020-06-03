@@ -12,7 +12,7 @@
         android:layout_width="275dp"
         android:layout_height="420dp"
         android:background="@drawable/rounded_shape_intro"
-        app:layout_constraintBottom_toTopOf="@+id/skipintro1_btn"
+        app:layout_constraintBottom_toTopOf="@+id/nextintro2_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

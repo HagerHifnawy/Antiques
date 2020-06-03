@@ -14,20 +14,19 @@ Button SkipIntro2;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro2);
-
         NextIntro2=findViewById(R.id.nextintro2_btn);
         SkipIntro2=findViewById(R.id.skipintro2_btn);
         NextIntro2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Intro2.this,MainActivity.class);
+                Intent intent=new Intent(Intro2.this,Intro3.class);
                 startActivity(intent);
             }
         });
         SkipIntro2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Intro2.this, MainActivity.class);
+                Intent intent=new Intent(Intro2.this, Login.class);
                 startActivity(intent);
             }
         });
