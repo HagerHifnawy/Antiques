@@ -15,7 +15,7 @@ public class Login extends AppCompatActivity {
     Button LoginBtn;
     Button ForgetpassBtn;
     Button RegisteraccountBtn;
-
+    Button forgetphone;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +41,24 @@ public class Login extends AppCompatActivity {
                 startActivity(intent);
             }}
         });
+        ForgetpassBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openDialog();
+
+            }
+        });
+        RegisteraccountBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openDialog();
+            }
+        });
+        
+    }
+    public void openDialog() {
+        Dialog dialog = new Dialog();
+        dialog.show(getSupportFragmentManager(), "dialog");
 
     }
 }
