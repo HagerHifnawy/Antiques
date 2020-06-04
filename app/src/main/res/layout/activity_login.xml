@@ -140,7 +140,7 @@
         app:layout_constraintHorizontal_bias="0.344"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Login_btn"
-        app:layout_constraintVertical_bias="0.428" />
+        app:layout_constraintVertical_bias="0.274" />
 
     <Button
         android:id="@+id/register_account_btn"
