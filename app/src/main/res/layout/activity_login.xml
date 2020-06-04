@@ -130,31 +130,33 @@
         android:id="@+id/register_account_tv1"
         android:layout_width="228dp"
         android:layout_height="47dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="17dp"
         android:gravity="center"
         android:text="@string/don_t_have_an_account"
         android:textColor="@color/colorPrimary"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.289"
+        app:layout_constraintHorizontal_bias="0.344"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Login_btn"
-        app:layout_constraintVertical_bias="0.416" />
+        app:layout_constraintVertical_bias="0.428" />
 
     <Button
         android:id="@+id/register_account_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="250dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="10dp"
         android:background="@android:color/transparent"
         android:text="Register now"
         android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/Login_btn" />
+        app:layout_constraintTop_toBottomOf="@id/Login_btn"
+        app:layout_constraintVertical_bias="0.463" />
 
     <TextView
         android:id="@+id/register_shape"
