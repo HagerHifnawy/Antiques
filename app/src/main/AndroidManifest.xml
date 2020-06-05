@@ -14,9 +14,7 @@
         <activity android:name=".Home" />
         <activity android:name=".SignUp" />
         <activity android:name=".Login" />
-        <activity android:name=".Intro3" />
-        <activity android:name=".Intro2" />
-        <activity android:name=".Intro1">
+        <activity android:name=".Intro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
