@@ -125,6 +125,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/forget_pass_btn" />
+
     <TextView
         android:id="@+id/register_account_tv1"
         android:layout_width="228dp"

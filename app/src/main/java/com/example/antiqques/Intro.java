@@ -70,16 +70,12 @@ public class Intro extends AppCompatActivity {
         //online
         IntroScreenItem itemonlineshop = new IntroScreenItem();
         itemonlineshop.setTitle("Online Shopping");
-        itemonlineshop.setDescription("It is not an ordinary shopping , but it is\n" +
-                " handmade of all kinds. (crochet, drawing,\n" +
-                "craving, embroidery and lap,,etc……");
+        itemonlineshop.setDescription("It is not an ordinary shopping ,but it is handmade of all kinds.(crochet, drawing,craving, embroidery and lap,,etc……");
         itemonlineshop.setScreenImg(R.drawable.secondintro);
         //trade
         IntroScreenItem itemTrade = new IntroScreenItem();
         itemTrade.setTitle("Trade online");
-        itemTrade.setDescription("Anyone can share what he did with his \n" +
-                " hands in the app and sell it in an easy way \n " +
-                "while ensuring safety");
+        itemTrade.setDescription("Anyone can share what he did with his hands in the app and sell it in an easy way  while ensuring safety");
         itemTrade.setScreenImg(R.drawable.thirdintro);
 //showadaptor
         introScreenItems.add(itemonlineshop);

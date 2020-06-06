@@ -32,7 +32,7 @@
             android:id="@+id/intro1_title_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="12dp"
             android:padding="5dp"
             android:text="@string/get_your_gift_easier"
             android:textColor="@color/colorPrimary"
