@@ -30,8 +30,15 @@ private Button forgetemail;
         forgetphone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(Dialog.this.getContext(),ForgetPassword.class);
+                startActivity(intent);
             }
+        });
+        forgetemail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Dialog.this.getContext(),forgetpassword2.class);
+                startActivity(intent); }
         });
         return builder.create();
     }
