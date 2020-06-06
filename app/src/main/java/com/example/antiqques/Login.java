@@ -31,13 +31,13 @@ public class Login extends AppCompatActivity {
                 String Email = Emailedt.getText().toString();
                 String Password = Passwordedt.getText().toString();
                 if(Email.isEmpty()){
-                    Emailedt.setError("Error");
-                    Toast.makeText(Login.this, "Please, Enter your Email to Log in", Toast.LENGTH_SHORT).show(); }
+                    Emailedt.setError("Please, Enter your Email to Log in");
+                     }
                 else if (Password.isEmpty()){
-                    Passwordedt.setError("Error");
-                    Toast.makeText(Login.this, "Please, Enter your password to Log in", Toast.LENGTH_SHORT).show(); }
+                    Passwordedt.setError("Please, Enter your Password to Log in");
+                     }
                 else {
-                Intent intent = new Intent(Login.this, Home.class);
+                Intent intent = new Intent(Login.this, CategoryActivity.class);
                 startActivity(intent);
             }}
         });

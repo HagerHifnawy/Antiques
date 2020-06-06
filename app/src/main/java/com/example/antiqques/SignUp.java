@@ -48,7 +48,7 @@ public class SignUp extends AppCompatActivity {
                 }else if (TextUtils.isEmpty(email)){
                     EmailEdt.setError("please enter you email");
                 }else {
-                    Intent intent=new Intent(SignUp.this,Home.class);
+                    Intent intent=new Intent(SignUp.this,CategoryActivity.class);
                     startActivity(intent);
                 }
             }

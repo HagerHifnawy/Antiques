@@ -11,15 +11,14 @@
         android:id="@+id/forget_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
         android:gravity="center"
         android:text="Forget Paswword"
         android:textColor="@color/colorPrimary"
-        android:textSize="20dp"
+        android:textSize="@dimen/_20sdp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="35dp"
-        android:drawableStart="@drawable/ic_baseline_lock_24"/>
-
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="52dp" />
 
     <Button
         android:id="@+id/phone_forget"
@@ -37,11 +36,11 @@
         android:id="@+id/email_forget"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/_20sdp"
         android:drawableEnd="@drawable/ic_email_24"
         android:text="Email"
         android:textColor="@color/colorPrimary"
-        android:textSize="15dp"
+        android:textSize="@dimen/_15sdp"
         app:layout_constraintTop_toBottomOf="@+id/forget_tv"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="49dp" />
