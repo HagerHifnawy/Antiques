@@ -23,8 +23,7 @@ craving, embroidery and lap,,etc……) </string>
     <string name="email">Email</string>
     <string name="welcome_back">Welcome Back !</string>
     <string name="don_t_have_an_account">Don’t have an account?</string>
-    <string name="register_now">Register now</string>
-    <string name="forget_your_password_recover">Forget your Password? Recover</string>
+    <string name="forgot_password">Forgot Password?</string>
     <string name="here"> Here.</string>
     <string name="password">password</string>
     <string name="shipping_address">Shipping Address</string>
