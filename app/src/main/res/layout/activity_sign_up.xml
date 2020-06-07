@@ -21,7 +21,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="6dp"
         android:text="Create Account to Continue"
         android:textColor="@color/colorPrimary"
         android:textSize="25dp"

@@ -36,6 +36,7 @@
         android:id="@+id/Login_tv"
         android:layout_width="210dp"
         android:layout_height="24dp"
+        android:layout_marginTop="1dp"
         android:gravity="center"
         android:text="Please,login to your account"
         android:textColor="@color/colorPrimary"
