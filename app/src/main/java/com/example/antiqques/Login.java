@@ -37,6 +37,7 @@ public class Login extends AppCompatActivity {
         LoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //dwascx evwdsc
                 String Email = Emailedt.getText().toString();
                 String Password = Passwordedt.getText().toString();
                 if(Email.isEmpty()){
