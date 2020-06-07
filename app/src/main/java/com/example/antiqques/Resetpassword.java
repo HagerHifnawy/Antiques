@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class forgetpassword2 extends AppCompatActivity {
+public class Resetpassword extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_forgetpassword2);
+        setContentView(R.layout.activity_resetpassword);
     }
 }

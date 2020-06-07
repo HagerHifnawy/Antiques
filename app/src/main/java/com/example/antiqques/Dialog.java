@@ -1,12 +1,10 @@
 package com.example.antiqques;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDialogFragment;
@@ -30,15 +28,14 @@ private Button forgetemail;
         forgetphone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dialog.this.getContext(),ForgetPassword.class);
-                startActivity(intent);
+                startActivity(new Intent(Dialog.this.getContext(),ForgetPassword.class));
             }
         });
      forgetemail.setOnClickListener(new View.OnClickListener() {
          @Override
          public void onClick(View v) {
-             Intent intent = new Intent(Dialog.this.getContext(),forgetpassword2.class);
-             startActivity(intent);
+
+             startActivity( new Intent(Dialog.this.getContext(), ForgetPassword.class));
          }
      });
         return builder.create();
