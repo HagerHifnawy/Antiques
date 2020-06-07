@@ -24,8 +24,8 @@ craving, embroidery and lap,,etc……) </string>
     <string name="welcome_back">Welcome Back !</string>
     <string name="don_t_have_an_account">Don’t have an account?</string>
     <string name="register_now">Register now</string>
-    <string name="fordet_your_password_recover">Fordet your Password? Recover</string>
-    <string name="here">Here</string>
+    <string name="forget_your_password_recover">Forget your Password? Recover</string>
+    <string name="here"> Here.</string>
     <string name="password">password</string>
     <string name="shipping_address">Shipping Address</string>
     <string name="title_activity_category">category</string>
@@ -35,11 +35,12 @@ craving, embroidery and lap,,etc……) </string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="Art">ART</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="resend">resend</string>
 </resources>

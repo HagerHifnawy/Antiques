@@ -3,7 +3,10 @@ package com.example.antiqques;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Paint;
 import android.os.Bundle;
+import android.text.SpannableString;
+import android.text.style.UnderlineSpan;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -20,11 +23,17 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+
+
+
         Emailedt = findViewById(R.id.editTextTextEmailAddress);
         Passwordedt = findViewById(R.id.editTextTextPassword);
         LoginBtn = findViewById(R.id.Login_btn);
         ForgetpassBtn = findViewById(R.id.forget_pass_btn);
         RegisteraccountBtn = findViewById(R.id.register_account_btn);
+        ForgetpassBtn.setPaintFlags(ForgetpassBtn.getPaintFlags()| Paint.UNDERLINE_TEXT_FLAG);
+        RegisteraccountBtn.setPaintFlags(RegisteraccountBtn.getPaintFlags()| Paint.UNDERLINE_TEXT_FLAG);
         LoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
