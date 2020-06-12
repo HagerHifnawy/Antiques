@@ -18,14 +18,10 @@ public class Login extends AppCompatActivity {
     Button LoginBtn;
     Button ForgetpassBtn;
     Button RegisteraccountBtn;
-    Button forgetphone;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
-
-
 
         Emailedt = findViewById(R.id.editTextTextEmailAddress);
         Passwordedt = findViewById(R.id.editTextTextPassword);

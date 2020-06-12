@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class SignUp extends AppCompatActivity {
     EditText userNameEdt;
     EditText PasswordEdt;
@@ -17,6 +19,8 @@ public class SignUp extends AppCompatActivity {
     EditText EmailEdt;
     Button SignUpBtn;
     Button SignInBtn;
+    private FirebaseAuth firebaseAuth;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +34,9 @@ public class SignUp extends AppCompatActivity {
         EmailEdt = findViewById(R.id.email_edt);
         SignUpBtn = findViewById(R.id.signUp_btn);
         SignInBtn = findViewById(R.id.signIn_btn);
+
+        firebaseAuth= FirebaseAuth.getInstance();
+        // SignUp
         SignUpBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -40,24 +47,27 @@ public class SignUp extends AppCompatActivity {
                 String email = EmailEdt.getText().toString();
                 if (TextUtils.isEmpty(username)) {
                     userNameEdt.setError("please enter Username");
-                }else if (TextUtils.isEmpty(password)){
+                } else if (TextUtils.isEmpty(password)) {
                     PasswordEdt.setError("please enter password");
-                }else if (TextUtils.isEmpty(confirmPassword)){
+                } else if (TextUtils.isEmpty(confirmPassword)) {
                     ConfirmPasswordEdt.setError("please confirm password");
-                }else if (TextUtils.isEmpty(phone)){
+                } else if (TextUtils.isEmpty(phone)) {
                     PhoneEdt.setError("please enter phone ");
-                }else if (TextUtils.isEmpty(email)){
+                } else if (TextUtils.isEmpty(email)) {
                     EmailEdt.setError("please enter you email");
-                }else {
-                    Intent intent=new Intent(SignUp.this,CategoryActivity.class);
+                } else {
+                    Intent intent = new Intent(SignUp.this, CategoryActivity.class);
                     startActivity(intent);
                 }
+                //  Send data to firebase
+
             }
         });
+        //SignIn
         SignInBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(SignUp.this,Login.class);
+                Intent intent = new Intent(SignUp.this, Login.class);
                 startActivity(intent);
             }
         });

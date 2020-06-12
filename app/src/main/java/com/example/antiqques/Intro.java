@@ -78,8 +78,8 @@ public class Intro extends AppCompatActivity {
         itemTrade.setDescription("Anyone can share what he did with his hands in the app and sell it in an easy way  while ensuring safety");
         itemTrade.setScreenImg(R.drawable.thirdintro);
 //showadaptor
-        introScreenItems.add(itemonlineshop);
         introScreenItems.add(itemGift);
+        introScreenItems.add(itemonlineshop);
         introScreenItems.add(itemTrade);
         introAdapter = new IntroAdapter(introScreenItems);
 

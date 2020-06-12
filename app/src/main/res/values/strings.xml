@@ -32,6 +32,7 @@ craving, embroidery and lap,,etc……) </string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="style_square">square_box</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="menu_home">Home</string>
@@ -42,4 +43,11 @@ craving, embroidery and lap,,etc……) </string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="reset_password">Reset Password</string>
     <string name="resend">resend</string>
+    <string name="phone">Phone</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="user_name">user name</string>
+    <string name="create_account_to_continue">Create Account to Continue</string>
+    <string name="register_now">Register Now</string>
+    <string name="login_now">login now</string>
+    <string name="please_login_to_your_account">Please,login to your account</string>
 </resources>

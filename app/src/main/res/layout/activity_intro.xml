@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Backgroundcolor"
-    tools:context=".MainActivity">
+    android:background="@color/Backgroundcolor">
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_Nextintro"

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "51253655507",
+    "firebase_url": "https://antiques-cfeec.firebaseio.com",
+    "project_id": "antiques-cfeec",
+    "storage_bucket": "antiques-cfeec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51253655507:android:2046b465ed868a9bb16126",
+        "android_client_info": {
+          "package_name": "com.example.antiqques"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51253655507-7ppj00h95cu2ub80meomsgackvv187cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG4D06S3RNPjyjVsM9MBnsPrluATPH0dU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51253655507-7ppj00h95cu2ub80meomsgackvv187cv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
