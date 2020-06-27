@@ -1,4 +1,4 @@
-package com.example.antiqques;
+package com.example.antiqques.pojo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.SearchView;
+
+import com.example.antiqques.R;
 
 public class Search extends AppCompatActivity {
 

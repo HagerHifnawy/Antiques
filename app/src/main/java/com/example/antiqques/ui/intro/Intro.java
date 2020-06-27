@@ -1,14 +1,15 @@
-package com.example.antiqques;
+package com.example.antiqques.ui.intro;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.example.antiqques.pojo.CategoryActivity;
+import com.example.antiqques.ui.registration.Login;
+import com.example.antiqques.R;
 import com.google.android.material.button.MaterialButton;
 
 import java.util.ArrayList;
@@ -16,14 +17,13 @@ import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
-import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager2.widget.ViewPager2;
 
 
 public class Intro extends AppCompatActivity {
     private MaterialButton NextIntro1;
 
-    private IntroAdapter introAdapter;
+    private CategoryActivity.IntroAdapter introAdapter;
     private LinearLayout layoutintroindicators;
 
     @Override
@@ -52,7 +52,7 @@ public class Intro extends AppCompatActivity {
                     introViewbpager.setCurrentItem(introViewbpager.getCurrentItem() + 1);
 
                 } else {
-                    startActivity(new Intent( getApplicationContext(),Login.class));
+                    startActivity(new Intent(getApplicationContext(), Login.class));
                     finish();
                 }
             }
@@ -77,11 +77,11 @@ public class Intro extends AppCompatActivity {
         itemTrade.setTitle("Trade online");
         itemTrade.setDescription("Anyone can share what he did with his hands in the app and sell it in an easy way  while ensuring safety");
         itemTrade.setScreenImg(R.drawable.thirdintro);
-//showadaptor
+        //showadaptor
         introScreenItems.add(itemGift);
         introScreenItems.add(itemonlineshop);
         introScreenItems.add(itemTrade);
-        introAdapter = new IntroAdapter(introScreenItems);
+        introAdapter = new CategoryActivity.IntroAdapter(introScreenItems);
 
     }
 
@@ -122,9 +122,9 @@ public class Intro extends AppCompatActivity {
             }
 
         }
-        if (index== introAdapter.getItemCount()-1){
+        if (index == introAdapter.getItemCount() - 1) {
             NextIntro1.setText("Finish");
-        }else {
+        } else {
             NextIntro1.setText("Next");
         }
     }

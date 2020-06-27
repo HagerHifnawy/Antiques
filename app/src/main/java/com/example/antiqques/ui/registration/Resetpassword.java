@@ -1,8 +1,10 @@
-package com.example.antiqques;
+package com.example.antiqques.ui.registration;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.antiqques.R;
 
 public class Resetpassword extends AppCompatActivity {
 

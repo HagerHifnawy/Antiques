@@ -1,4 +1,4 @@
-package com.example.antiqques;
+package com.example.antiqques.ui.intro;
 
 public class IntroScreenItem {
 

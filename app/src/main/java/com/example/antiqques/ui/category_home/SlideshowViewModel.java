@@ -1,4 +1,4 @@
-package com.example.antiqques.ui.slideshow;
+package com.example.antiqques.ui.category_home;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

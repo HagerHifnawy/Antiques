@@ -1,4 +1,4 @@
-package com.example.antiqques.ui.gallery;
+package com.example.antiqques.ui.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,6 +13,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.antiqques.R;
+import com.example.antiqques.ui.category_home.GalleryViewModel;
 
 public class GalleryFragment extends Fragment {
 

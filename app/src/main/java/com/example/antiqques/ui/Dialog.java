@@ -1,10 +1,13 @@
-package com.example.antiqques;
+package com.example.antiqques.ui;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.antiqques.R;
+import com.example.antiqques.ui.registration.ForgetPassword;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDialogFragment;
@@ -28,7 +31,7 @@ private Button forgetemail;
         forgetphone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Dialog.this.getContext(),ForgetPassword.class));
+                startActivity(new Intent(Dialog.this.getContext(), ForgetPassword.class));
             }
         });
      forgetemail.setOnClickListener(new View.OnClickListener() {

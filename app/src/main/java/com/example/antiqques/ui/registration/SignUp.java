@@ -1,5 +1,6 @@
-package com.example.antiqques;
+package com.example.antiqques.ui.registration;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -8,7 +9,13 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
+import com.example.antiqques.pojo.CategoryActivity;
+import com.example.antiqques.R;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class SignUp extends AppCompatActivity {
@@ -58,9 +65,10 @@ public class SignUp extends AppCompatActivity {
                 } else {
                     Intent intent = new Intent(SignUp.this, CategoryActivity.class);
                     startActivity(intent);
+
                 }
                 //  Send data to firebase
-
+                signUp();
             }
         });
         //SignIn
@@ -71,5 +79,29 @@ public class SignUp extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+    }
+    private void signUp() {
+        String email = EmailEdt.getText().toString();
+        String password = PasswordEdt.getText().toString();
+        String confirmPass = ConfirmPasswordEdt.getText().toString();
+        String username = userNameEdt.getText().toString();
+        String phone =PhoneEdt.getText().toString();
+
+        firebaseAuth.createUserWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            Toast.makeText(SignUp.this, "Login success", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(SignUp.this, Login.class));
+                            finish();
+
+                        } else {
+                            String errorMessage = task.getException().getMessage();
+                            Toast.makeText(SignUp.this, errorMessage, Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
     }
 }

@@ -1,14 +1,16 @@
-package com.example.antiqques;
+package com.example.antiqques.pojo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Setting extends AppCompatActivity {
+import com.example.antiqques.R;
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_setting);
+        setContentView(R.layout.activity_intro);
     }
 }

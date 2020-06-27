@@ -1,4 +1,4 @@
-package com.example.antiqques;
+package com.example.antiqques.ui.registration;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.antiqques.R;
 
 public class ForgetPassword extends AppCompatActivity {
 Button confimPassword;
@@ -20,7 +22,7 @@ Button resendcodebtn;
         confimPassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ForgetPassword.this,Resetpassword.class));
+                startActivity(new Intent(ForgetPassword.this, Resetpassword.class));
             }
         });
         resendcodebtn.setPaintFlags(resendcodebtn.getPaintFlags()| Paint.UNDERLINE_TEXT_FLAG);

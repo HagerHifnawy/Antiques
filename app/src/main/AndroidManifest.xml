@@ -9,24 +9,24 @@
         android:roundIcon="@mipmap/ic_logo_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Search"></activity>
-        <activity android:name=".Resetpassword" />
+        <activity android:name=".pojo.Search"></activity>
+        <activity android:name=".ui.registration.Resetpassword" />
         <activity
-            android:name=".CategoryActivity"
+            android:name=".pojo.CategoryActivity"
             android:label="@string/title_activity_category"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Setting" />
-        <activity android:name=".ForgetPassword" />
-        <activity android:name=".SignUp" />
-        <activity android:name=".Login" />
-        <activity android:name=".Intro">
+        <activity android:name=".pojo.Setting" />
+        <activity android:name=".ui.registration.ForgetPassword" />
+        <activity android:name=".ui.registration.SignUp" />
+        <activity android:name=".ui.registration.Login" />
+        <activity android:name=".ui.intro.Intro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".pojo.MainActivity" />
     </application>
 
 </manifest>

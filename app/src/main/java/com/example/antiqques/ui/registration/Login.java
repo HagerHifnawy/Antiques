@@ -1,16 +1,17 @@
-package com.example.antiqques;
+package com.example.antiqques.ui.registration;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.graphics.Paint;
 import android.os.Bundle;
-import android.text.SpannableString;
-import android.text.style.UnderlineSpan;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
+
+import com.example.antiqques.pojo.CategoryActivity;
+import com.example.antiqques.ui.Dialog;
+import com.example.antiqques.R;
 
 public class Login extends AppCompatActivity {
     EditText Emailedt;
