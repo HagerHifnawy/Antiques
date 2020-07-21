@@ -7,19 +7,30 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.antiqques.ui.fragment.HomeFragment"
+        android:name="com.example.antiqques.ui.homepage.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.antiqques.ui.fragment.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
+        android:id="@+id/nav_profile"
+        android:name="com.example.antiqques.ui.homepage.ProfileFragment"
+        android:label="@string/my_antique"
+        tools:layout="@layout/fragment_my_antiques" />
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.antiqques.ui.fragment.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_fav"
+        android:name="com.example.antiqques.ui.homepage.FavoriteFragment"
+        android:label="@string/favorite"
+        tools:layout="@layout/favorite_fragment" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.antiqques.ui.homepage.SettingFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_categorie"
+        android:name="com.example.antiqques.ui.homepage.Categories"
+        android:label="@string/categories"
+        tools:layout="@layout/cart_fragment" />
+
+
 </navigation>

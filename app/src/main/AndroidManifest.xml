@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.antiqques">
-<uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_logo_launcher_round"
+        android:icon="@mipmap/ic_logo_round"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_logo_launcher_round"
+        android:roundIcon="@mipmap/ic_logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".pojo.Search"></activity>
+        <activity android:name=".pojo.CartActivity"></activity>
+        <activity android:name=".ui.homepage.HomeBottomNavigation" />
+        <activity android:name=".ui.category.WeddingPlannerActivity" />
+        <activity android:name=".ui.category.BabyActivity" />
+        <activity android:name=".ui.category.DressesActivity" />
+        <activity android:name=".ui.category.BridesActivity" />
+        <activity android:name=".ui.category.ScarfActivity" />
+        <activity android:name=".ui.category.PulloversActivity" />
+        <activity android:name=".ui.category.BagsActivity" />
+        <activity android:name=".ui.category.EarthenwareActivity" />
+        <activity android:name=".ui.category.AccessoriesActivity" />
+        <activity android:name=".ui.category.EmbroideryActivity" />
+        <activity android:name=".ui.category.SewingActivity" />
+        <activity android:name=".ui.category.CrochetActivity" />
+        <activity android:name=".ui.category.SculptureActivity" />
+        <activity android:name=".ui.category.ArtActivity" />
         <activity android:name=".ui.registration.Resetpassword" />
-        <activity
-            android:name=".pojo.CategoryActivity"
-            android:label="@string/title_activity_category"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".pojo.Setting" />
         <activity android:name=".ui.registration.ForgetPassword" />
         <activity android:name=".ui.registration.SignUp" />
         <activity android:name=".ui.registration.Login" />
@@ -26,7 +36,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".pojo.MainActivity" />
+        <activity android:name=".ui.intro.MainActivity" />
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

@@ -22,7 +22,7 @@
             android:layout_height="121dp"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/_15sdp"
-            android:src="@mipmap/ic_logo_launcher_round"  />
+            android:src="@mipmap/ic_logo"  />
 
         <TextView
             android:id="@+id/textView"

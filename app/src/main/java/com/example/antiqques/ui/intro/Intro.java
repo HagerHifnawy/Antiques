@@ -1,5 +1,6 @@
 package com.example.antiqques.ui.intro;
 
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -7,9 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.example.antiqques.pojo.CategoryActivity;
-import com.example.antiqques.ui.registration.Login;
 import com.example.antiqques.R;
+import com.example.antiqques.ui.registration.Login;
 import com.google.android.material.button.MaterialButton;
 
 import java.util.ArrayList;
@@ -23,7 +23,7 @@ import androidx.viewpager2.widget.ViewPager2;
 public class Intro extends AppCompatActivity {
     private MaterialButton NextIntro1;
 
-    private CategoryActivity.IntroAdapter introAdapter;
+    private IntroAdapter introAdapter;
     private LinearLayout layoutintroindicators;
 
     @Override
@@ -52,7 +52,7 @@ public class Intro extends AppCompatActivity {
                     introViewbpager.setCurrentItem(introViewbpager.getCurrentItem() + 1);
 
                 } else {
-                    startActivity(new Intent(getApplicationContext(), Login.class));
+                    startActivity(new Intent( getApplicationContext(), Login.class));
                     finish();
                 }
             }
@@ -70,18 +70,18 @@ public class Intro extends AppCompatActivity {
         //online
         IntroScreenItem itemonlineshop = new IntroScreenItem();
         itemonlineshop.setTitle("Online Shopping");
-        itemonlineshop.setDescription("It is not an ordinary shopping ,but it is handmade of all kinds.(crochet, drawing,craving, embroidery and lap,,etc……");
+        itemonlineshop.setDescription("It is not an ordinary shopping ,but it is handmade of all kinds.(crochet, drawing,craving, embroidery and lap,,etc…)");
         itemonlineshop.setScreenImg(R.drawable.secondintro);
         //trade
         IntroScreenItem itemTrade = new IntroScreenItem();
         itemTrade.setTitle("Trade online");
         itemTrade.setDescription("Anyone can share what he did with his hands in the app and sell it in an easy way  while ensuring safety");
         itemTrade.setScreenImg(R.drawable.thirdintro);
-        //showadaptor
-        introScreenItems.add(itemGift);
+//showadaptor
         introScreenItems.add(itemonlineshop);
+        introScreenItems.add(itemGift);
         introScreenItems.add(itemTrade);
-        introAdapter = new CategoryActivity.IntroAdapter(introScreenItems);
+        introAdapter = new IntroAdapter(introScreenItems);
 
     }
 
@@ -122,9 +122,9 @@ public class Intro extends AppCompatActivity {
             }
 
         }
-        if (index == introAdapter.getItemCount() - 1) {
+        if (index== introAdapter.getItemCount()-1){
             NextIntro1.setText("Finish");
-        } else {
+        }else {
             NextIntro1.setText("Next");
         }
     }

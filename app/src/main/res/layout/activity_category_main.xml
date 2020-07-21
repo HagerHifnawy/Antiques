@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/fragment_category"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/Backgroundcolor"
+        android:orientation="vertical"
+        tools:context=".ui.homepage.Category">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/thirdintro" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:gravity="center"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="Everything you want in Antiques"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/btn_Art"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="@dimen/_30sdp"
+            android:drawableStart="@drawable/ic_paint"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/Art"
+            android:textColor="@color/Backgroundcolor"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/btn_sculipture"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="@dimen/_30sdp"
+            android:drawableStart="@drawable/ic_sculpture"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/sculpture"
+            android:textColor="@color/Backgroundcolor"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btn_crochet"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="@dimen/_30sdp"
+            android:drawableStart="@drawable/ic_crochet"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/crochet"
+            android:textColor="@color/Backgroundcolor"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+
+            />
+
+
+        <TextView
+            android:id="@+id/btn_sewing"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="@dimen/_30sdp"
+            android:drawableStart="@drawable/ic_sewing"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/sewing"
+            android:textColor="@color/Backgroundcolor"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+
+            />
+
+
+        <TextView
+            android:id="@+id/btn_embroidery"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="@dimen/_30sdp"
+            android:drawableStart="@drawable/ic_embroidery"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/embroidery"
+            android:textColor="@color/Backgroundcolor"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/btn_earthenware"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="@dimen/_30sdp"
+            android:drawableStart="@drawable/ic_earthenware"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/earthenware"
+            android:textColor="@color/Backgroundcolor"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/btn_accessories"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="@dimen/_30sdp"
+            android:drawableStart="@drawable/ic_accessories"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/accessories"
+            android:textColor="@color/Backgroundcolor"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/btn_bags"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="@dimen/_30sdp"
+            android:drawableStart="@drawable/ic_backpack"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/bags"
+            android:textColor="@color/Backgroundcolor"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/btn_pullovers"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="@dimen/_30sdp"
+            android:drawableStart="@drawable/ic_pullovers"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/pullovers"
+            android:textColor="@color/Backgroundcolor"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/btn_scarf"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="@dimen/_30sdp"
+            android:drawableStart="@drawable/ic_scarf"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/scarf"
+            android:textColor="@color/Backgroundcolor"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/btn_brides"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="@dimen/_30sdp"
+            android:drawableStart="@drawable/ic_brides"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/brides"
+            android:textColor="@color/Backgroundcolor"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btn_dresses"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="@dimen/_30sdp"
+            android:drawableStart="@drawable/ic_dresses"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/dresses"
+            android:textColor="@color/Backgroundcolor"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/btn_baby"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="@dimen/_30sdp"
+            android:drawableStart="@drawable/ic_baby"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/baby"
+            android:textColor="@color/Backgroundcolor"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/btn_wedding"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/colorPrimary"
+            android:drawablePadding="@dimen/_30sdp"
+            android:drawableStart="@drawable/ic_wedding"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/wedding_planner"
+            android:textColor="@color/Backgroundcolor"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+
+            />
+
+
+    </LinearLayout>
+</ScrollView>
